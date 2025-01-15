@@ -13,7 +13,7 @@ func main() {
 		log.Fatalf("Failed to initialize PostgreSQL client")
 	}
 
-	filename := "path/to/your/largefile.csv"
+	filename := "files/largefile.csv"
 	tableName := "your_table"
 	columns := "(column1, column2, column3)" // Cambia esto según la estructura de tu tabla
 
